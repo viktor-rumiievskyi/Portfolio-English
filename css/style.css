@@ -1,0 +1,248 @@
+body {
+	font-family: 'Tilt Warp', cursive;
+	background-color: beige;
+	padding: 40px;
+}
+
+.wrapper {
+	display: flex;
+	background-color: white;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* Sidebar */
+.sidebar {
+	max-width: 350px;
+	background: #e0ebef;
+	padding: 40px;
+}
+
+.my-photo {
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	height: 350px;
+} 
+
+.contats-container,
+.tech-skills-container{
+	margin: 48px 0 0 40px;
+}
+
+.sidebar-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: black;
+	margin-bottom: 8px;
+}
+
+
+
+.contacts-type {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+	margin-right: 8px;
+}
+
+.contacts-item {
+	margin: 0;
+}
+
+.contacts-email {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #005FFF;
+}
+
+.skills-list {
+	margin: 0;
+	padding: 0 0 0 12px;
+}
+.skills-list :hover{
+  background: yellow;
+  color: green;
+}
+
+.skills-list-item {
+	color: #6D9BF5;
+}
+
+
+
+.skills-list-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #161d2a;
+	transition-property: background, color; 
+  transition-duration: 2s;
+}
+
+.skills-list-text:hover{
+  background: yellow;
+  color: green;
+}
+
+/* Sidebar */
+
+
+.about-me {
+	margin-bottom: 65px;
+}
+
+.main-content {
+	padding: 88px;
+}
+
+.my-profession {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: black;
+	margin: 0 0 18px 0;
+}
+
+.my-name {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 55px;
+	color: black;
+	margin: 0 0 28px 0;
+}
+
+.my-deskr {
+	width: 525px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595955;
+} 
+
+
+/* Projects */
+.project-container {
+	margin-bottom: 48px;
+}
+
+.project-list{
+	padding: 0 0 0 14px;
+	margin: 0;
+}
+
+.main-content-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 72px;
+	color: black;
+	margin: 0 0 8px 0;
+}
+
+.project-item {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 14px;
+	color: black;
+}
+
+.project-item-descr {
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #595955;
+}
+
+.project-item-link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #005FFF;
+}
+/* Projects */
+
+/* Education */
+.education {
+	margin-bottom: 44px;
+}
+
+.education-position-place {
+	margin-bottom: 16px;
+}
+
+.education-period {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #A8A8A8;
+	margin: 12px 0 8px ;
+}
+
+.education-position {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+	color: black;
+	margin: 0;
+}
+
+.education-duties {
+	font-family: 'Shantell Sans', cursive;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595955;
+}
+
+.education-duties-title {
+	font-family: 'Gajraj One', cursive;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595955;
+	width: 525px;
+}
+/* Education */
+
+/* About myself */
+.about-myself {
+
+}
+
+.about-myself-position {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+	color: black;
+}
+
+.about-myself-duties {
+	font-family: 'Gajraj One', cursive;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595955;
+	width: 525px;
+}
+/* About myself */
